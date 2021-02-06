@@ -1,0 +1,354 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* Styling for Nav Bar 1 */
+
+.navbar {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#navone {
+    background-color: white;
+    text-decoration-color: black;
+    font-size: 14px;
+}
+
+
+#navone a {
+    color: #000;
+}
+
+.bbc-logo {
+    width: 74px;
+    height: 21px;
+    position: relative;
+    bottom: 3px;
+}
+
+
+input.form-control.me-2 {
+    font-size: 14px;
+    height: 35px;
+    margin-top: 5px;
+    border: 3px solid grey;
+    color: #000;
+    position: relative;
+    bottom: 2px;
+}
+
+.btn-outline-success {
+    margin-top: 5px;
+    width: 45px;
+    height: 35px;
+    border: 3px solid grey;
+}
+
+.glass-img {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 11px;
+    right: 35px;
+}
+
+.notifications-main-header {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+a[href*="sign-in"]:hover {
+    border-bottom: 4px solid blue;
+}
+
+a[href*="home"]:hover {
+    border-bottom: 4px solid black;
+}
+
+a[href*="news"]:hover {
+    border-bottom: 4px solid maroon;
+}
+
+a[href*="sports"]:hover {
+    border-bottom: 4px solid yellow;
+}
+
+a[href*="weather"]:hover {
+    border-bottom: 4px solid #88ccee;
+}
+
+a[href*="iplayer"]:hover {
+    border-bottom: 4px solid #ed3d7d;
+}
+
+a[href*="sounds"]:hover {
+    border-bottom: 4px solid #ff4900;
+}
+
+a[href*="cbbc"]:hover {
+    border-bottom: 4px solid darkgreen;
+}
+
+
+/* Styling for Nav bar 2 */
+
+.Newsbar {
+    background-color: #bb1919 !important;
+    color: white;
+    padding-left: 80px;
+}
+
+.Newsbar h1 {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.newstabs {
+    color: white !important;
+    position: relative;
+    right: 18px;
+    font-size: 14px;
+}
+
+.newstabs:hover {
+    border-bottom: 4px solid white;
+}
+
+.bg-danger {
+    background-color: #bb1919!important;
+}
+
+
+/* Styling for Nav bar 3 */
+
+#navbar3 {
+    position: relative;
+    right: 10px;
+    font-size: 14px;
+}
+
+#navbar3 a.nav-link {
+    color: #000;
+}
+
+a[href*="regionlist"]:hover {
+    border-bottom: 4px solid #bb1919;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*bottom list styling navbarbottom */
+
+.navbarbd {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbarbd a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbarbd a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbarbd a.active {
+    background-color: #0000;
+    color: white;
+}
+
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+
+/* navdrop hover */
+
+.more:hover {
+    background-color: black;
+}
+
+
+/*Titles for new sections*/
+
+h3 {
+    position: relative;
+    text-align: start;
+}
+
+h3 span {
+    display: inline-block;
+    padding: 0 10px;
+    background: #fff;
+}
+
+h3:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background: black;
+}
+
+
+/* drop down and search   */
+
+#bd_nav_link {
+    background-image: url(https://static.files.bbci.co.uk/account/id-cta/1.53.19/style/img/idcta-icon-sprite.svg);
+    background-size: 22px;
+    background-position: 6px 8px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#bd_nav-item {
+    width: 100px;
+    padding-left: 35px;
+}
+
+#navbarDropdown2 {
+    color: white;
+}
+
+.bd_drawer {
+    background-color: #0568b1;
+    color: white;
+    display: none;
+    padding: 0 15%;
+}
+
+.id4-cta-register {
+    color: white;
+}
+
+.id4-cta-button {
+    background-color: white;
+}
+
+
+/* Content */
+
+#allcontent {
+    padding: 1px 70px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.img1 {
+    width: 639px;
+    height: 220px;
+    padding: 0 10px;
+}
+
+.img2,
+.img3 {
+    width: 213px;
+    height: 220px;
+    padding: 0 10px;
+}
+
+.img4 {
+    width: 213px;
+    height: 220px;
+}
+
+.img5{
+    width: 319px;
+    height: 220px;
+    padding: 0 10px;
+}
+
+.content {
+    position: relative;
+    left: 1px;
+    padding: 2px 10px;
+}
+
+.card {
+    border: white!important;
+    width: 210px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.sidenews {
+    border-bottom: solid 1px #cccccc;
+}
+
+.hr-padding{
+    padding-right: 25px;
+
+}
+
+h3 {
+    position:relative;
+    text-align:start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h3 span {
+    display:inline-block;
+    padding:0 10px;
+    background:#fff;
+}
+
+h3:before {
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+    left:0;
+    right:0;
+    top:50%;
+    height:1px;
+    background:black;
+}
+
+h6 {
+    display: inline;
+    font-size: 13px;
+}
+
+h4 {
+    font-weight: bold;
+    padding: 5px 0px;
+    font-size: 16px;
+}
+.para {
+    font-size: 14px;
+}
